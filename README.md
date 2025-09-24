@@ -124,7 +124,7 @@ docker logs -f fastapi (ctrl + c para salir)
 8. **# iniciar sesión en docker**
 
 ```bash
-docker login -u <username> (docker login -u tinchoxd)
+docker login -u oscarm112248 (docker login -u oscarm112248)
 ```
 --- 
 
@@ -145,7 +145,7 @@ Docker Hub → Account Settings → Security → New Access Token.
 10. **# Etiquetar la imagen**
 
 ```bash
-docker tag fastapi-multistage:dev <tu_usuario_dockerhub>/fastapi-multistage:latest
+docker tag fastapi-multistage:dev oscarm112248/fastapi-multistage:latest
 
 ```
 
