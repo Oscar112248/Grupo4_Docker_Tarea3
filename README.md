@@ -60,7 +60,7 @@ sudo apt update && sudo apt dist-upgrade –y
 2. **#clonar repositorio**
 
 ```bash
-git clone https://github.com/TinchoXD/Grupo4_Docker_Tarea3.git
+git clone https://github.com/Oscar112248/Grupo4_Docker_Tarea3.git
 ```
 <img width="798" height="171" alt="01" src="https://github.com/user-attachments/assets/b3f5cfa3-6a3d-4cb6-815f-8597f1010170" />
 
@@ -199,7 +199,7 @@ docker tag fastapi-multistage:dev oscarm112248/fastapi-multistage:latest
 
 
       # Ejecutar análisis
-      docker scout cves tinchoxd/fastapi-multistage:latest
+      docker scout cves oscarm112248/fastapi-multistage:latest
       
           ✓ SBOM of image already cached, 143 packages indexed
           ✗ Detected 11 vulnerable packages with a total of 23 vulnerabilities
@@ -383,7 +383,7 @@ docker tag fastapi-multistage:dev oscarm112248/fastapi-multistage:latest
       
       
       What's next:
-          View base image update recommendations → docker scout recommendations tinchoxd/fastapi-multistage:latest
+          View base image update recommendations → docker scout recommendations oscarm112248/fastapi-multistage:latest
 
 14. **Verificar el funcionanmineto del Contenedor**
 
